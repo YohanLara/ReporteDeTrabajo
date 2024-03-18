@@ -1,0 +1,37 @@
+form{
+  width: 88%;
+  margin:auto;
+  padding: 20px 60px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+#formulario-titulo {
+  font-size: 24px; 
+  text-align: center;
+
+}
+
+.estilo-label {
+  display: block;
+  background-color: rgb(72, 109, 178);
+  color: white;
+  padding: 5px;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+.imagen-superior-izquierda {
+  object-fit: cover;
+  top: 0;
+  left: 100;
+  width:100%; /* ajusta el ancho según necesidad */
+  height: 120px; /* altura automática para mantener la proporción */
+}
+
+.campo-delgado input {
+  border: 1px solid #343a40; /* Color oscuro del borde */
+  border-radius: 4px; /* Agrega esquinas redondeadas si lo deseas */
+}
+
