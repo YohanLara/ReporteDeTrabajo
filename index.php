@@ -81,8 +81,8 @@ include "modelo/conexion.php";
         <input type="text" class="form-control" name="referencia[]">
     </div>
     <div class="col-md-5 campo-delgado">
-        <label for="descripcion" class="form-label"><span>Descripcion</span></label>
-        <input type="text" class="form-control" name="descripcion[]">
+        <label for="descripcion"  class="form-label"><span> Descripcion</span></label>
+        <textarea class="form-control" name="descripcion[]" id="descripcion" rows="1" style="border: 1px solid black;"></textarea>
     </div>
    
     <button id="adicional" name="adicional" type="button" class="btn" style="background-color: rgb(42, 47, 134); color: white;" onclick="agregarCampos()"> Más Campos +</button>
